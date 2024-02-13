@@ -22,7 +22,7 @@ TreeNode* revert(TreeNode*root){
         revert(root->left);
         
         bool flag= issame(root->left,root->right);
-        revert(root->left);
+     //   revert(root->left);
         return flag;
         
     }
